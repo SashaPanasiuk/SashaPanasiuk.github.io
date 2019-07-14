@@ -1,0 +1,11 @@
+{
+  "name": "Tajam",
+  "version": "1.0.0",
+  "description": "description",
+  "main": "main.js",
+  "author": "Sasha Panasiuk",
+  "license": "MIT",
+  "dependencies": {
+    "animejs": "^3.0.1"
+  }
+}
