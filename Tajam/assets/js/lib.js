@@ -88,7 +88,3 @@ $(slider).slick('slickNext');
 function prev(slider = '.feedback_slider'){
 $(slider).slick('slickPrev');
 }
-function debug(){
-console.log(this);
-}
-window.onclick = debug;
