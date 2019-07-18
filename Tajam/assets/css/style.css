@@ -545,9 +545,9 @@ opacity: 0;
    
 }
 .contact{
-	height: 675px;
+	padding-bottom: 30px;
 	position: relative;
-	top:700px;
+	
 	padding-top: 50px;
 }
 .contact input,textarea{
@@ -595,12 +595,12 @@ opacity: 0;
 	margin-bottom: 10px;
 }
 .footer{
-	height: 350px;
+	
 	background-image: url(../img/footer-background.jpg);
 	position: relative;
-	top: 700px;
+	
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding: 35px;
 	color: #FFF;
 	font-family: Roboto Light;
 }
@@ -729,6 +729,19 @@ opacity: 0;
 	.person{
 		margin-bottom: 30px;
 	}
+	.clients .title{
+		margin-left: 12.5%;
+		margin-right: 12.5%;
+	}
+	.clients{
+		    margin-top: 40px;
+	}
+	 .footer_menu{
+		margin-top:20px;
+	}
+	.footer .logo{
+		left:0px;
+	}
 }
 @media screen and (max-width: 768px){
 	.story .button_blue{
@@ -833,5 +846,30 @@ opacity: 0;
 @media screen and (max-width:524px){
 	.feedbacks:before{
 		height: 740px;
+	}
+}
+@media screen and (max-width:960px){
+	.items .text,.ourstudio,.stayintouch{
+		display: none;	
+	}
+	.footer{
+		padding-top: 20px;	
+		padding-bottom: 20px;	
+	}
+	.footer:before{
+		height: 100px;	
+	}
+}
+@media screen and (max-width:830px){
+	.footer{
+		padding-top: 50px;	
+		padding-bottom: 30px;	
+	}
+	.footer_menu{
+		display: none;
+	}
+	.copyright{
+		position:relative;
+		right:0px;
 	}
 }
